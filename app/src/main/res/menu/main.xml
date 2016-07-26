@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.satriadimaspermana.mvpmovie.View.pilihanMovie"
+    >
+    <group android:checkableBehavior="single">
+    <item android:id="@+id/mostpopular"
+        android:title="@string/popular"
+        android:showAsAction="never"
+        ></item>
+    <item android:id="@+id/rated"
+        android:title="@string/rated"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        ></item>
+    <item android:id="@+id/upcomming"
+        android:title="@string/upcomming"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        ></item>
+    </group>
+
+</menu>
